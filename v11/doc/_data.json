@@ -81,7 +81,7 @@
                         "section": "The tutorial requires two ACE standalone integration servers which are created as part of the tutorial."
                     },
                     {
-                        "section": "In IBM App Connect Enterprise, an application is a container for all the resources that are required to create a solution. This tutorial provides an application to hold the message flow. This scenario uses MQ nodes which are configured to interact with a local queue manager. The flows expect to be deployed to an integration node associated with a local queue manager. There are no other pre-requisites needed by the scenario."
+                        "section": "In IBM App Connect Enterprise, an application is a container for all the resources that are required to create a solution. This tutorial provides an application to hold the message flow. There are no other pre-requisites needed by the scenario."
                     }
 					
                 ]
@@ -113,7 +113,7 @@
                     "sections": 
 					[
                         {
-							"section":"<center><img src='http://ot4i.github.io/https-certificates-tutorial/Overview.png' alt='' /></center>"                            
+							"section":"<center><img src='http://ot4i.github.io/https-certificates-tutorial/v11/en/Overview.png' alt='' /></center>"                            
 						},
 						{
                             "section": "When you click Import, two projects will be created in your workspace: An application named <span class='application'>ExampleClient</span> and an application named <span class='application'>ExampleServer</span>."
