@@ -33,7 +33,7 @@
         "_common": 
 		{
             "name": "Using HTTPS and certificates with the HTTPInput, HTTPReply and HTTPRequest nodes",
-            "shortDescription": "Learn how to create a Public Key Infrastructure with ACEv11 using self-signed certificates in order to send data securely across HTTPS.",			
+            "shortDescription": "Learn how to create a Public Key Infrastructure with ACE using self-signed certificates in order to send data securely across HTTPS.",			
 			"durationText": "This tutorial takes approximately",
             "durationTime": "10 minutes",
             "_resourceToOpenComment": "The ID of the first resource to open when the user imports the tutorial. Resource IDs are defined in the repo_metadata.json Tutorials listing on ot4i.",
@@ -285,7 +285,7 @@
                             }
                         },
 			{
-			    "section": "This tutorial has shown how to create a Public Key Infrastructure with ACEv11 using self-signed certificates in order to send data securely across HTTPS."			
+			    "section": "This tutorial has shown how to create a Public Key Infrastructure with ACE using self-signed certificates in order to send data securely across HTTPS."			
 				}
                     ]
                 },
