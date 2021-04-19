@@ -33,7 +33,7 @@
         "_common": 
 		{
             "name": "Using HTTPS and certificates with the HTTPInput, HTTPReply and HTTPRequest nodes",
-            "shortDescription": "Learn how to create a Public Key Infrastructure with ACE using self-signed certificates in order to send data securely across HTTPS.",			
+            "shortDescription": "Learn how to create a Public Key Infrastructure using self-signed certificates in order to send data securely across HTTPS.",			
 			"durationText": "This tutorial takes approximately",
             "durationTime": "10 minutes",
             "_resourceToOpenComment": "The ID of the first resource to open when the user imports the tutorial. Resource IDs are defined in the repo_metadata.json Tutorials listing on ot4i.",
@@ -71,14 +71,14 @@
             "summary": 
 			{
                 "overviewName": "OVERVIEW",
-                "_overviewComment": "A short description of what happens in this tutorial, and an optional short explanation of the ACE concepts used in this tutorial if necessary for context. What background knowledge must the user have for this to make sense?",
+                "_overviewComment": "A short description of what happens in this tutorial, and an optional short explanation of the concepts used in this tutorial if necessary for context. What background knowledge must the user have for this to make sense?",
                 "sections": 
 				[
                     {
                         "section": "This tutorial demonstrates two simple message flows, which are deployed to two separate stand-alone integration servers. One flow contains an HTTPRequest node which invokes the HTTPInput node in the other flow across HTTPS. The tutorial also provides step-by-step instructions for setting up keystores and truststores using both keytool and the IBM Global Security Kit."
 					},
 					{
-                        "section": "The tutorial requires two ACE standalone integration servers which are created as part of the tutorial."
+                        "section": "The tutorial requires two standalone integration servers which are created as part of the tutorial."
                     },
                     {
                         "section": "In IBM App Connect Enterprise, an application is a container for all the resources that are required to create a solution. This tutorial provides an application to hold the message flow. There are no other pre-requisites needed by the scenario."
@@ -164,7 +164,7 @@
                     "sections": 
 		     [
 			 {
-                     "section":"The following instructions are written assuming a Windows environment. Applying equivalent instructions for other platforms is left to the reader - for assistance in this regard the additional links to the full Knowledge Center product documentation will be helpful. The instructions show how to use two different utilities for the creation of keystores. Keytool is provided in the Java Development Kit (provided as part of your ACE installation) and gsk8capicmd_64 is provided as part of IBM's Global Security Kit (located in your IBM MQ installation).",
+                     "section":"The following instructions are written assuming a Windows environment. Applying equivalent instructions for other platforms is left to the reader - for assistance in this regard the additional links to the full Knowledge Center product documentation will be helpful. The instructions show how to use two different utilities for the creation of keystores. Keytool is provided in the Java Development Kit (provided as part of your IBM App Connect Enterprise installation) and gsk8capicmd_64 is provided as part of IBM's Global Security Kit (located in your IBM MQ installation).",
                      "steps":{
                         "type":"ordered",
                         "details":[
@@ -285,7 +285,7 @@
                             }
                         },
 			{
-			    "section": "This tutorial has shown how to create a Public Key Infrastructure with ACE using self-signed certificates in order to send data securely across HTTPS."			
+			    "section": "This tutorial has shown how to create a Public Key Infrastructure using self-signed certificates in order to send data securely across HTTPS."			
 				}
                     ]
                 },
